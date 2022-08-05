@@ -1,0 +1,170 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+header {
+  border: 1px solid blue;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10vw;
+  /* height: 250px; */
+  /* flex: 1 1 auto; */
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header p,
+header a {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+header h2 {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+h3 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 5px;
+}
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.top-section {
+  display: flex;
+}
+.text {
+  flex: 1;
+}
+.image {
+  flex: 1;
+  border: 1px solid green;
+}
+
+main {
+  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  width: 100px;
+  height: 100px;
+  border: 1px solid blue;
+  flex: 1;
+  border-radius: 10%;
+}
+.card-container {
+  width: 100px;
+  /* height: 100px; */
+  margin-bottom: 50px;
+}
+.card-container p {
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  border: 1px solid blue;
+}
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+header,
+footer {
+  background-color: #1f2937;
+}
+footer {
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.btn,
+.sign-up {
+  background-color: #3882f6;
+}
+.info h4 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.quote p {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+  padding: 0 100px;
+}
+.quoter {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  margin-top: 0px;
+}
+
+.btn {
+  padding: 6px;
+  border-radius: 10%;
+  border: none;
+  width: 70px;
+  color: white;
+}
+.image {
+  background-color: grey;
+}
+
+.sign-up {
+  display: flex;
+  margin: 50px 70px;
+  padding: 20px 35px;
+  color: white;
+}
+
+.sign-up h4 {
+  margin: 0;
+}
+
+.sign-up .btn {
+  border: 1px solid white;
+  margin: 10px 10px 10px 40px;
+}
